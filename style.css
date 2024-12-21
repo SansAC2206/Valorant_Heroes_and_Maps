@@ -1,0 +1,96 @@
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/originals/19/c2/2e/19c22e78acd36cbbc78d20d4f055d3ce.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.H-page h1 {
+    transition: 2s;
+    color: white;
+    opacity: 0.82;
+    text-shadow: 10px 0px 10px red;
+    font-family: "Neue Frutiger World", Tahoma, sans-serif;
+    filter: blur(1px);
+    padding-top: 215px;
+}
+
+.H-page p {
+    transition: 1s;
+    color: white;
+    opacity: 0;
+    text-shadow: 10px 0px 10px red;
+    font-family: "Neue Frutiger World", Tahoma, sans-serif;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    max-width: 100px;
+}
+
+.H-page:hover p {
+    color: white;
+    opacity: 1;
+    text-shadow: 10px 0px 10px blue;
+    font-family: "Neue Frutiger World", Tahoma, sans-serif;
+    max-width: 100px;
+    margin: 0 auto 0 auto;
+}
+
+.H-page:hover h1 {
+    color: white;
+    opacity: 1;
+    text-shadow: 0px 10px 10px blue;
+    font-family: "Neue Frutiger World", Tahoma, sans-serif;
+    filter: blur(0px);
+    padding-top: 205px;
+}
+
+.H-page {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+}
+
+.section {
+    background-color: rgba(43, 6, 6);
+}
+
+.section div {
+    background-color: rgba(255, 6, 6);
+    height: 420px;
+    white-space: nowrap;
+}
+
+.section div .first_collum {
+    background-color: white;
+    width: 48%;
+    height: 420px;
+    white-space: normal;
+    display: inline-block;
+    align-items: center;
+    overflow: hidden;
+    margin-right: 3.8%;
+}
+
+.section div .second_collum {
+    background-color: white;
+    width: 48%;
+    height: 420px;
+    white-space: normal;
+    display: inline-block;
+    align-items: center;
+    overflow: hidden;
+}
+
+.section div .two_collums:first-child {
+    margin-right: 3.8%;
+}
