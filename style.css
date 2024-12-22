@@ -25,7 +25,7 @@ body {
 }
 
 .H-page p {
-    transition: 1s;
+    transition: 2s;
     color: white;
     opacity: 0;
     text-shadow: 10px 0px 10px red;
@@ -60,12 +60,38 @@ body {
     font-size: 100px;
 }
 
+.main_text {
+    background-color: rgba(101, 0, 11);
+    height: 100px;
+    text-align: center;
+}
+
+.main_text h1 {
+    padding-top: 17px;
+    font-family: "Neue Frutiger World", Tahoma, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.main_text2 {
+    background-color: rgba(0, 49, 83);
+    height: 100px;
+    text-align: center;
+}
+
+.main_text2 h1 {
+    padding-top: 17px;
+    font-family: "Neue Frutiger World", Tahoma, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
 .section {
     background-color: rgba(43, 6, 6);
 }
 
 .section div {
-    background-color: rgba(255, 6, 6);
+    background-color: rgba(101, 0, 11);
     height: 420px;
     white-space: nowrap;
 }
@@ -79,6 +105,8 @@ body {
     align-items: center;
     overflow: hidden;
     margin-right: 3.8%;
+    font-family: "Neue Frutiger World", Tahoma, sans-serif;
+    font-size: 20px;
 }
 
 .section div .second_collum {
@@ -89,8 +117,51 @@ body {
     display: inline-block;
     align-items: center;
     overflow: hidden;
+    vertical-align: top;
+    object-fit: contain;
 }
 
-.section div .two_collums:first-child {
+.section div .second_collum img {
+    width: 100%;
+    height: 100%;
+}
+
+.section2 {
+    background-color: rgba(0, 49, 83);
+}
+
+.section2 div {
+    background-color: rgba(0, 49, 83);
+    height: 420px;
+    white-space: nowrap;
+}
+
+.section2 div .first_collum {
+    background-color: white;
+    width: 48%;
+    height: 420px;
+    white-space: normal;
+    display: inline-block;
+    align-items: center;
+    overflow: hidden;
     margin-right: 3.8%;
+    font-family: "Neue Frutiger World", Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.section2 div .second_collum {
+    background-color: white;
+    width: 48%;
+    height: 420px;
+    white-space: normal;
+    display: inline-block;
+    align-items: center;
+    overflow: hidden;
+    vertical-align: top;
+    object-fit: contain;
+}
+
+.section2 div .second_collum img {
+    width: 100%;
+    height: 100%;
 }
