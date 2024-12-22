@@ -70,7 +70,7 @@ body {
     padding-top: 17px;
     font-family: "Neue Frutiger World", Tahoma, sans-serif;
     font-size: 50px;
-    color: white;
+    color: rgba(0,0,0);
 }
 
 .main_text2 {
@@ -83,7 +83,7 @@ body {
     padding-top: 17px;
     font-family: "Neue Frutiger World", Tahoma, sans-serif;
     font-size: 50px;
-    color: white;
+    color: rgba(204,204,255);
 }
 
 .section {
@@ -91,13 +91,13 @@ body {
 }
 
 .section div {
-    background-color: rgba(101, 0, 11);
+    background-color: rgba(155, 17, 30);
     height: 420px;
     white-space: nowrap;
 }
 
 .section div .first_collum {
-    background-color: white;
+    background-color: rgba(155, 17, 30);
     width: 48%;
     height: 420px;
     white-space: normal;
@@ -107,6 +107,7 @@ body {
     margin-right: 3.8%;
     font-family: "Neue Frutiger World", Tahoma, sans-serif;
     font-size: 20px;
+    color: rgba(255, 215, 0);
 }
 
 .section div .second_collum {
@@ -119,6 +120,7 @@ body {
     overflow: hidden;
     vertical-align: top;
     object-fit: contain;
+    border-radius: 360px;
 }
 
 .section div .second_collum img {
@@ -127,11 +129,12 @@ body {
 }
 
 .section2 {
-    background-color: rgba(0, 49, 83);
+    background-color: rgba(0,149,182);
 }
 
 .section2 div {
-    background-color: rgba(0, 49, 83);
+    transition: 1s;
+    background-color: rgba(0,149,182);
     height: 420px;
     white-space: nowrap;
 }
@@ -147,6 +150,8 @@ body {
     margin-right: 3.8%;
     font-family: "Neue Frutiger World", Tahoma, sans-serif;
     font-size: 20px;
+    background-color: rgba(0,149,182);
+    color: rgba(120,219,226);
 }
 
 .section2 div .second_collum {
@@ -159,9 +164,30 @@ body {
     overflow: hidden;
     vertical-align: top;
     object-fit: contain;
+    border-radius: 360px;
 }
 
 .section2 div .second_collum img {
     width: 100%;
     height: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(1, 50, 32);
+    font-family: "Neue Frutiger World", Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+footer div {
+    transition: 5s;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(1, 55, 32);
+}
+
+footer div:hover {
+    width: 100%;
+    height: 1000px;
 }
