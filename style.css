@@ -108,6 +108,7 @@ body {
     font-family: "Neue Frutiger World", Tahoma, sans-serif;
     font-size: 20px;
     color: rgba(255, 215, 0);
+    vertical-align: center;
 }
 
 .section div .second_collum {
@@ -165,6 +166,7 @@ body {
     vertical-align: top;
     object-fit: contain;
     border-radius: 360px;
+    vertical-align: center;
 }
 
 .section2 div .second_collum img {
