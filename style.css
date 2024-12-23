@@ -108,7 +108,7 @@ body {
     font-family: "Neue Frutiger World", Tahoma, sans-serif;
     font-size: 20px;
     color: rgba(255, 215, 0);
-    vertical-align: middle;
+    justify-content: center
 }
 
 .section div .second_collum {
@@ -153,7 +153,7 @@ body {
     font-size: 20px;
     background-color: rgba(0,149,182);
     color: rgba(120,219,226);
-    vertical-align: middle;
+    justify-content: center
 }
 
 .section2 div .second_collum {
