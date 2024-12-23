@@ -15,7 +15,7 @@ body {
 }
 
 .H-page h1 {
-    transition: 2s;
+    transition: 1s;
     color: white;
     opacity: 0.82;
     text-shadow: 10px 0px 10px red;
@@ -25,7 +25,7 @@ body {
 }
 
 .H-page p {
-    transition: 2s;
+    transition: 1s;
     color: white;
     opacity: 0;
     text-shadow: 10px 0px 10px red;
