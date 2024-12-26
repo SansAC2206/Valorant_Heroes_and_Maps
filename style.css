@@ -15,7 +15,7 @@ body {
 }
 
 .H-page h1 {
-    transition: 1s;
+    transition: 2s;
     color: white;
     opacity: 0.82;
     text-shadow: 10px 0px 10px red;
@@ -25,7 +25,7 @@ body {
 }
 
 .H-page p {
-    transition: 1s;
+    transition: 2s;
     color: white;
     opacity: 0;
     text-shadow: 10px 0px 10px red;
@@ -108,7 +108,6 @@ body {
     font-family: "Neue Frutiger World", Tahoma, sans-serif;
     font-size: 20px;
     color: rgba(255, 215, 0);
-    justify-content: center
 }
 
 .section div .second_collum {
@@ -153,7 +152,6 @@ body {
     font-size: 20px;
     background-color: rgba(0,149,182);
     color: rgba(120,219,226);
-    justify-content: center
 }
 
 .section2 div .second_collum {
@@ -167,7 +165,6 @@ body {
     vertical-align: top;
     object-fit: contain;
     border-radius: 360px;
-    vertical-align: center;
 }
 
 .section2 div .second_collum img {
